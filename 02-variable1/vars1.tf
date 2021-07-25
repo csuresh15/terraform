@@ -122,10 +122,10 @@ output "COUNTRY" {
 //}
 
 
-//variable "VEGS" {}
-//output "VEGS" {
-//  value = var.VEGS
-//}
+variable "VEGES" {}
+output "VEGES" {
+  value = var.VEGES
+}
 //
 //variable "FRUITS" {}
 //output "FRUITS" {
