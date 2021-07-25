@@ -1,2 +1,2 @@
 FRUITS=["pineapple", "strawberry", "banana"]
-VEGS=["Carrot", "tomato", "beetroot"]
+//VEGS=["Carrot", "tomato", "beetroot"]

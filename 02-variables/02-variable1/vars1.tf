@@ -122,18 +122,18 @@ output "COUNTRY" {
 //}
 
 
-variable "VEGS" {}
-output "VEGS" {
-  value = var.VEGS
-}
+//variable "VEGS" {}
+//output "VEGS" {
+//  value = var.VEGS
+//}
 //
 variable "FRUITS" {}
 output "FRUITS" {
   value = var.FRUITS
 }
 
-variable "FRUITS1" {}
-output "FRUITS1" {
-  value = var.FRUITS1
-}
+//variable "FRUITS1" {}
+//output "FRUITS1" {
+//  value = var.FRUITS1
+//}
 
