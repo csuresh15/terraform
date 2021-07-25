@@ -132,4 +132,8 @@ output "FRUITS" {
   value = var.FRUITS
 }
 
+variable "FRUITS1" {}
+output "FRUITS1" {
+  value = var.FRUITS1
+}
 
