@@ -73,7 +73,7 @@ output "WORK" {
   value = var.WORK
 }
 output "WORKING" {
-  value = var.WORKING[0]
+  value = var.WORKING[1]
 }
 output "FIRST-TRAINING" {
   value = var.TRAININGS[0]
