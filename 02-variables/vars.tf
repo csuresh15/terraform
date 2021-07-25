@@ -43,19 +43,19 @@
 //  value = "String = ${var.string} , Number = ${var.number} , Boolean = ${var.boolean}"
 //}
 //
-variable "TRAINING" {
-  default = "DevOps"
-}
+//variable "TRAINING" {
+//  default = "DevOps"
+//}
 variable "TRAININGS" {
   default = [ "DevOps", "AWS" ]
 }
-
-variable "WORK" {
-  default = "ibm"
-}
-variable "WORKING" {
-  default = [ "ibm", "cts"]
-}
+//
+//variable "WORK" {
+//  default = "ibm"
+//}
+//variable "WORKING" {
+//  default = [ "ibm", "cts"]
+//}
 variable "contract" {
   default = [ "ibm1", "cts2"]
 }
@@ -67,17 +67,17 @@ variable "TRAINING-DETAILS" {
   }
 }
 
-output "TRAINING" {
-  value = var.TRAINING
-}
-
-output "WORK" {
-  value = var.WORK
-}
-output "WORKING" {
-  value = var.WORKING[1]
-}
-output "contract" {
+//output "TRAINING" {
+//  value = var.TRAINING
+//}
+//
+//output "WORK" {
+//  value = var.WORK
+//}
+//output "WORKING" {
+//  value = var.WORKING[1]
+//}
+output "contractor" {
   value = var.contract[0]
 }
 output "FIRST-TRAINING" {
