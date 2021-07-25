@@ -1,1 +1,0 @@
-VEGS=["Carrot", "tomato", "beetroot"]
