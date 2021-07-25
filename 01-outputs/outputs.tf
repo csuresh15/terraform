@@ -13,5 +13,5 @@ output "disp1" {
   value = "Sanvi"
 }
 output "integ" {
-  value = "202"
+  value = 202
 }
