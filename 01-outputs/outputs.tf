@@ -7,5 +7,11 @@ output "out2" {
 }
 
 output "disp" {
+  value = "Surya Sanvi"
+}
+output "disp1" {
   value = "Sanvi"
+}
+output "integ" {
+  value = "202"
 }
