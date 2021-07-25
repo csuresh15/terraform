@@ -47,7 +47,7 @@
 //  default = "DevOps"
 //}
 variable "TRAININGS" {
-  default = [ "DevOps", "AWS" ]
+  default = [ "DevOps1", "AWS1" ]
 }
 //
 //variable "WORK" {
@@ -56,14 +56,15 @@ variable "TRAININGS" {
 //variable "WORKING" {
 //  default = [ "ibm", "cts"]
 //}
-variable "contract" {
-  default = [ "ibm1", "cts2"]
-}
+//variable "contract" {
+//  default = [ "ibm1", "cts2"]
+//}
 
 variable "TRAINING-DETAILS" {
   default = {
     AWS = "6AM EST"
     DEVOPS = "8AM EST"
+    AZUR = "10AM IST"
   }
 }
 
@@ -77,9 +78,9 @@ variable "TRAINING-DETAILS" {
 //output "WORKING" {
 //  value = var.WORKING[1]
 //}
-output "contractor" {
-  value = var.contract[0]
-}
+//output "contractor" {
+//  value = var.contract[0]
+//}
 output "FIRST-TRAINING" {
   value = var.TRAININGS[0]
 }
@@ -88,8 +89,11 @@ output "SECOND-TRAINING" {
   value = var.TRAININGS[1]
 }
 
+//  output "TRAINING-DETAILS" {
+//  value = "AWS TIMING - ${var.TRAINING-DETAILS["AWS"]}"
+//}
 output "TRAINING-DETAILS" {
-  value = "AWS TIMING - ${var.TRAINING-DETAILS["AWS"]}"
+  value = var.TRAINING-DETAILS
 }
 
 output "TRAININGS" {
