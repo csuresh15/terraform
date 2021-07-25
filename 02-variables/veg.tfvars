@@ -1,1 +1,1 @@
-VEGS=["Carrot", "tomato"]
+VEGS=["Carrot", "tomato", "beetroot"]
