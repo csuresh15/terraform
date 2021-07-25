@@ -1,7 +1,13 @@
 //variable "sample" {
 //  default = "Hello World"
 //}
-//
+variable "frstvar" {
+  default = "furst value"
+}
+
+output "frstvar" {
+  value = var.frstvar
+}
 //output "sample" {
 //  value = var.sample
 //}
