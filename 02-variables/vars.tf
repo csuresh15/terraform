@@ -56,7 +56,9 @@ variable "WORK" {
 variable "WORKING" {
   default = [ "ibm", "cts"]
 }
-
+variable "contract" {
+  default = [ "ibm1", "cts2"]
+}
 
 variable "TRAINING-DETAILS" {
   default = {
@@ -74,6 +76,9 @@ output "WORK" {
 }
 output "WORKING" {
   value = var.WORKING[1]
+}
+output "contract" {
+  value = var.contract[0]
 }
 output "FIRST-TRAINING" {
   value = var.TRAININGS[0]
