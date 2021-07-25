@@ -72,8 +72,8 @@ output "TRAINING" {
 output "WORK" {
   value = var.WORK
 }
-output "company" {
-  value = var.WORKING[1]
+output "WORKING" {
+  value = var.WORKING[0]
 }
 output "FIRST-TRAINING" {
   value = var.TRAININGS[0]
