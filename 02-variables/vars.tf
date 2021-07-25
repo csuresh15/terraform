@@ -1,13 +1,15 @@
+//variable "frstvar" {
+//  default = "furst value"
+//}
+//
+//output "frstvar" {
+//  value = var.frstvar
+//}
+
 //variable "sample" {
 //  default = "Hello World"
 //}
-variable "frstvar" {
-  default = "furst value"
-}
 
-output "frstvar" {
-  value = var.frstvar
-}
 //output "sample" {
 //  value = var.sample
 //}
@@ -25,21 +27,21 @@ output "frstvar" {
 //  value = var.sample2
 //}
 //
-//variable "string" {
-//  default = "Hello"
-//}
-//
-//variable "number" {
-//  default = 10
-//}
-//
-//variable "boolean" {
-//  default = false
-//}
-//
-//output "data-types" {
-//  value = "String = ${var.string} , Number = ${var.number} , Boolean = ${var.boolean}"
-//}
+variable "string" {
+  default = "Hello"
+}
+
+variable "number" {
+  default = 10
+}
+
+variable "boolean" {
+  default = false
+}
+
+output "data-types" {
+  value = "String = ${var.string} , Number = ${var.number} , Boolean = ${var.boolean}"
+}
 //
 //variable "TRAINING" {
 //  default = "DevOps"
