@@ -46,9 +46,9 @@
 //variable "TRAINING" {
 //  default = "DevOps"
 //}
-variable "TRAININGS" {
-  default = [ "DevOps1", "AWS1" ]
-}
+//variable "TRAININGS" {
+//  default = [ "DevOps1", "AWS1" ]
+//}
 //
 //variable "WORK" {
 //  default = "ibm"
@@ -60,13 +60,13 @@ variable "TRAININGS" {
 //  default = [ "ibm1", "cts2"]
 //}
 
-variable "TRAINING-DETAILS" {
-  default = {
-    AWS = "6AM EST"
-    DEVOPS = "8AM EST"
-    AZUR = "10AM IST"
-  }
-}
+//variable "TRAINING-DETAILS" {
+//  default = {
+//    AWS = "6AM EST"
+//    DEVOPS = "8AM EST"
+//    AZUR = "10AM IST"
+//  }
+//}
 
 //output "TRAINING" {
 //  value = var.TRAINING
@@ -81,24 +81,24 @@ variable "TRAINING-DETAILS" {
 //output "contractor" {
 //  value = var.contract[0]
 //}
-output "FIRST-TRAINING" {
-  value = var.TRAININGS[0]
-}
-
-output "SECOND-TRAINING" {
-  value = var.TRAININGS[1]
-}
+//output "FIRST-TRAINING" {
+//  value = var.TRAININGS[0]
+//}
+//
+//output "SECOND-TRAINING" {
+//  value = var.TRAININGS[1]
+//}
 
 //  output "TRAINING-DETAILS" {
 //  value = "AWS TIMING - ${var.TRAINING-DETAILS["AWS"]}"
 //}
-output "TRAINING-DETAILS" {
-  value = var.TRAINING-DETAILS
-}
-
-output "TRAININGS" {
-  value = var.TRAININGS
-}
+//output "TRAINING-DETAILS" {
+//  value = var.TRAINING-DETAILS
+//}
+//
+//output "TRAININGS" {
+//  value = var.TRAININGS
+//}
 
 //// So far we have declared value with in variable block.
 //# Now the data comes from different sources
