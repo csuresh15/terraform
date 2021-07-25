@@ -111,10 +111,10 @@
 //  value = var.FRUITS
 //}
 //
-//variable "COUNTRY" {}
-//output "COUNTRY" {
-//  value = var.COUNTRY
-//}
+variable "COUNTRY" {}
+output "COUNTRY" {
+  value = var.COUNTRY
+}
 //
 //variable "SEASON" {}
 //output "SEASON" {
