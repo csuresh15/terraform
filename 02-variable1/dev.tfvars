@@ -1,2 +1,2 @@
 FRUIT=["pineapple", "strawberry", "banana"]
-VEGES=["Carrot", "tomato", "beetroot"]
+VEGES=["Carrot", "tomato", "beetroot", "cabbage"]
