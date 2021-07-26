@@ -31,7 +31,7 @@ resource "aws_security_group" "ssh_allow" {
   }
 }
 output "ec2-attributes" {
-  value = aws_security_group.ssh_allow
+  value = aws_instance.Generic
 }
 provider "aws" {
   region = "us-east-1"
