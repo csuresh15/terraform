@@ -26,12 +26,12 @@ resource "aws_instance" "Generic" {
 provider "aws" {
   region = "us-east-1"
 }
-
 terraform {
   backend "s3" {
     bucket = "mytfbucket-b57"
     key    = "sample/terraform.tfstate"
     region = "us-east-1"
+    dynamodb_table = "terraformdb"
     //dynamodb_table = "terraform"
   }
 }
