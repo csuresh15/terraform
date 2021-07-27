@@ -28,10 +28,10 @@ provider "aws" {
 }
 terraform {
   backend "s3" {
-    bucket = "mytfbucket-b57"
+    bucket = "terraformbkt01"
     key    = "sample/terraform.tfstate"
     region = "us-east-1"
-    dynamodb_table = "terraformdb"
+    dynamodb_table = "terraformdb01"
     //dynamodb_table = "terraform"
   }
 }
