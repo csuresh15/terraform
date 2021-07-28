@@ -6,3 +6,6 @@ module "EC2" {
   //SG_ID  = module.SG.SG_ID
   SG_ID = module.SG.SG_ID
 }
+provider "aws" {
+  region                 = "us-east-1"
+}

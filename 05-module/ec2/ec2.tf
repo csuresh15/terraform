@@ -9,6 +9,3 @@ resource "aws_instance" "Generic" {
 }
   variable "SG_ID" {}
 
-provider "aws" {
-  region                 = "us-east-1"
-}
