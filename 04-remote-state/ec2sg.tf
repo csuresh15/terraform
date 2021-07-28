@@ -17,11 +17,11 @@
 //    //dynamodb_table = "terraform"
 //  }
 //}
-resource "aws_instance" "sample" {
+resource "aws_instance" "Generic" {
   ami                   = "ami-074df373d6bafa625"
   instance_type         = "t3.micro"
   tags                  = {
-    Name                = "Sample"
+    Name                = "Generic"
   }
 }
 
