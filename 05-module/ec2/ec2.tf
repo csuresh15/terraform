@@ -11,3 +11,6 @@ resource "aws_instance" "Generic" {
   variable "SG_ID" {}
    variable "TYPE" {}
 
+output "Private_IP" {
+  value                 = aws_instance.Generic.*.private_ip
+}
